@@ -6,23 +6,21 @@ import java.util.*;
 
 
 public class StudentController {
+    private Map<String, Student> studentMap;
+
+    public StudentController(){
+        AllStudent.deserializeFromFile();
+        studentMap= AllStudent.getStudentMap();
+    }
     private String name;
-    private String program;
-    private int year;
+    private char gender;
+    private String nationality;
     private String matricNo;
 
-    HashMap<String, Student> studentMap = new HashMap<String, Student>();
-    //Map<String,Student> studentMap;
-    Student student = new Student(name,program,year,matricNo);
+    Student student = new Student(name,gender,nationality,matricNo);
     String studentMatricNo = student.getStudentMatric();
 
-   /* public void setMap(Map<String, Student> studentMap) {
-        this.studentMap = studentMap;
-    }*/
 
-//    public static studentMap<String, Student> getMap() {
-//        return studentMap;
-//    }
     public void getStudentBasicInfo(String name){
 
 

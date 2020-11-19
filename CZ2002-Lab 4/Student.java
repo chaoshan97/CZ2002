@@ -1,3 +1,5 @@
+//package sce.cz2002.yxy;
+
 import java.util.*;
 import java.io.Serializable;
 import java.time.*;
@@ -10,19 +12,18 @@ public class Student implements Serializable{
     private String MatricNo;
     private String Password;
     private String StudentEmail;
-    private String CurrentProg;
-    private int StudyYear;
     private Map<String, Index> CoursesRegistered;
     private Map<String, Index> CoursesWaitlist;
     //private Map<>
     private int SumAU = 0;
     private LocalDateTime[] AccessPeriod;
 
-    public Student(String name, String program, int year, String matric) {
+    public Student(String name, char gender, String nationality, String matric) {
         Name = name;
-        CurrentProg = program;
-        StudyYear = year;
+        Gender = gender;
+        Nationality = nationality;
         MatricNo = matric;
+
     }
 
     public String getStudentName() {
@@ -62,6 +63,10 @@ public class Student implements Serializable{
 
     public void setAccessPeriod(LocalDateTime[] accessperiod) {
         AccessPeriod = accessperiod;
+
+    }
+    public LocalDateTime[] getAccessPeriod() {
+        return AccessPeriod;
     }
 
     public void addtoCoursesRegistered(Index i){

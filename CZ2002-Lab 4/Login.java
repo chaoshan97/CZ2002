@@ -1,62 +1,80 @@
-import java.io.*;
-import java.text.SimpleDateFormat;
-import java.util.InputMismatchException;
-import java.util.List;
-import java.util.Scanner;
+import java.security.MessageDigest;
+import java.io.Serializable;
+import java.nio.charset.StandardCharsets;
+class Login implements Serializable{
+    // association with username
+    // encryption and checking takes place
+    private String hashed_pass;
+    // primary key
+    private String username;
+    // domain = 1 for student and domain = 0 for admin
+    private int domain;
 
-public class Login{
-    public static void main(String[] args) {
-        Login login =  new Login();
-        Allpasswords allpasswords =  new Allpasswords();
-        Scanner scanner = new Scanner(System.in);
-        String domain=null;
+    public Login(){ this.hashed_pass = ""; this.username = "";}
 
-        System.out.println("Select your domain: ");
-        System.out.println("1. Student");
-        System.out.println("2. Staff");
-        System.out.print("Select an option: ");
 
-        if(!scanner.hasNextInt()){
-            System.out.println("Invalid Inputs!Please enter a number!");
+    public Login(String username, String raw, int domain){
+        this.username = username;
+        this.hashed_pass = hash(raw);
+        this.domain = domain;
+
+    }
+
+    public void setUsername(String username){
+        this.username = username;
+    }
+
+    public void setPassword(String password){
+        this.hashed_pass = hash(password);
+    }
+
+    public void setDomain(int domain){
+        this.domain = domain;
+    }
+
+    public int getDomain(){
+        return this.domain;
+    }
+
+    public String getPassword(){
+        return this.hashed_pass;
+    }
+
+    public String getUsername(){
+        return this.username;
+    }
+
+    private String hash(String raw){
+        try{
+            MessageDigest digest = MessageDigest.getInstance("SHA-256");
+            byte[] encodedhash = digest.digest(raw.getBytes(StandardCharsets.UTF_8));
+            return (bytesToHex(encodedhash));
         }
-        else{
-        int num= scanner.nextInt();
-            try {
-                while (num < 1 || num > 2) {
-                    System.out.println("Invalid input");
-                    System.out.print("Select an option: ");
-                    num = scanner.nextInt();
+        catch(Exception e){
+            throw new RuntimeException(e);
+        }
+    }
 
-                }
-                System.out.print("Network username or new username: ");
-                String userName = scanner.nextLine();
-                String userName1 = scanner.nextLine();
-                System.out.print("Password: ");
-                String password = scanner.nextLine();
-                PasswordController passwordController = new PasswordController();
-                passwordController.checkData(userName1, password,login, num);
 
-            } catch(Exception e) {
-                System.out.println("Invalid Inputs!Please enter either option 1 or 2 !");
-                System.out.print("Select an option: ");
-                num = scanner.nextInt();
-
+    private static String bytesToHex(byte[] hash) {
+        StringBuilder hexString = new StringBuilder(2 * hash.length);
+        for (int i = 0; i < hash.length; i++) {
+            String hex = Integer.toHexString(0xff & hash[i]);
+            if(hex.length() == 1) {
+                hexString.append('0');
             }
+            hexString.append(hex);
         }
+        return hexString.toString();
     }
-
-    public boolean checkAllowedPeriod(){
-        String allowedSTime = "2020-11-19-01-25-39".replace("-",""); //enter allowed start time in "yyyy-MM-dd-HH-mm-ss" format
-        String allowedETime = "2020-12-19-01-25-39".replace("-",""); //enter allowed end time in "yyyy-MM-dd-HH-mm-ss" format
-        java.util.Date date = new java.util.Date();
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd-HH-mm-ss");
-        String time = sdf.format(date).replace("-","");
-
-        if(Long.parseLong(time)<Long.parseLong(allowedSTime) && Long.parseLong(time)>Long.parseLong(allowedETime)){
-            return false;
-        }else{
+    // can use it for polymorphism and LSP
+    @Override
+    public boolean equals(Object p1){
+        Login p2 = (Login) p1;
+        if (this.hashed_pass.compareTo(p2.getPassword()) == 0 && (this.username.toUpperCase()).compareTo(p2.getUsername().toUpperCase())==0 && this.domain == p2.getDomain())
             return true;
-        }
-
+        else
+            return false;
     }
+
 }

@@ -1,15 +1,16 @@
+
 import java.util.ArrayList;
 import java.util.List;
 
-class AllAdmins implements FileHandle{
-    private static List adminList;
+class AllLogin implements FileHandle{
+    private static List passwordList;
 
-    public AllAdmins(){
+    public AllLogin(){
 
     }
 
     public static List getList(){
-        return adminList;
+        return passwordList;
     }
 
     public static List readSerializedObject(String filename){
@@ -21,11 +22,11 @@ class AllAdmins implements FileHandle{
     }
 
     public static void deserializeFromFile(){
-        AllAdmins.adminList = (ArrayList)(readSerializedObject("admin.dat"));
+        AllLogin.passwordList = (ArrayList)(readSerializedObject("password.dat"));
     }
 
     public static void serializeToFile(){
-        writeSerializedObject("admin.dat", adminList);
+        writeSerializedObject("password.dat", passwordList);
     }
 
 

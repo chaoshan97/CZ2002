@@ -55,13 +55,13 @@ public class AdminBoundary {
             System.out.print("Enter gender (Male/female): ");
             String gender = sc.next();
             if (gender.toUpperCase().compareTo( "MALE")==0){
-                //Student s = new Student(name, '1', nation, matric);
-              //  asc.addStudent(s);
+                Student s = new Student(name, '1', nation, matric);
+                asc.addStudent(s);
             }
             else{
                 if (gender.toUpperCase().compareTo( "FEMALE")==0){
-                  //  Student s = new Student(name, '0', nation, matric);
-                //    asc.addStudent(s);
+                    Student s = new Student(name, '0', nation, matric);
+                    asc.addStudent(s);
                 }
                 else{
                     System.out.println("Invalid gender. Re-enter everything");
@@ -255,4 +255,3 @@ public class AdminBoundary {
     }
 
 }
-

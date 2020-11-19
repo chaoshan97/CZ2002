@@ -20,39 +20,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bb55dba-1f13-48d6-a14d-33cc96d6b3eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/javax_mail.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/javax_mail1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdminBoundary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdminStudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AllAdmins.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AllStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CZ2002-Lab 4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Studentboundry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studentInfo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timeType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userdata.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdminCourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdminCourseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AllCourses.java" beforeDir="false" afterPath="$PROJECT_DIR$/AllCourse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Allpasswords.java" beforeDir="false" afterPath="$PROJECT_DIR$/Allpasswords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CZ2002-Lab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CZ2002-Lab.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/Email.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FileHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/FileHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LoginBoundary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/password.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminBoundary.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdminBoundary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllAdmins.java" beforeDir="false" afterPath="$PROJECT_DIR$/AllAdmins.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/AllStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allpasswords.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Index.java" beforeDir="false" afterPath="$PROJECT_DIR$/Index.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/Notifier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Password.java" beforeDir="false" afterPath="$PROJECT_DIR$/Password.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PasswordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/PasswordController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Password.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PasswordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentCourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentCourseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Timeslot.java" beforeDir="false" afterPath="$PROJECT_DIR$/Timeslot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Timetable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Timetable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CZ2002-Lab/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CZ2002-Lab/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CZ2002-Lab/CZ2002-Lab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CZ2002-Lab/CZ2002-Lab.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Studentboundry.java" beforeDir="false" afterPath="$PROJECT_DIR$/Studentboundry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CZ2002-Lab 4/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CZ2002-Lab 4/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CZ2002-Lab 4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CZ2002-Lab 4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CZ2002-Lab 4/Admin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CZ2002-Lab 4/AdminBoundary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CZ2002-Lab 4/AdminCourseController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CZ2002-Lab 4/AdminStudentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CZ2002-Lab 4/AllAdmins.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CZ2002-Lab 4/AllCourse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CZ2002-Lab 4/AllStudent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CZ2002-Lab 4/Allpasswords.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CZ2002-Lab 4/Course.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CZ2002-Lab 4/CourseType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CZ2002-Lab 4/DayOfWeek.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CZ2002-Lab 4/Email$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CZ2002-Lab 4/Email.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CZ2002-Lab 4/FileHandle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CZ2002-Lab 4/Index.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CZ2002-Lab 4/Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CZ2002-Lab 4/Notifier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CZ2002-Lab 4/Password.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CZ2002-Lab 4/PasswordController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CZ2002-Lab 4/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CZ2002-Lab 4/StudentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CZ2002-Lab 4/StudentCourseController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CZ2002-Lab 4/Studentboundry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CZ2002-Lab 4/Timeslot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CZ2002-Lab 4/Timetable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CZ2002-Lab 4/timeType.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,9 +81,10 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1kUNdtEVWITzi0kkGpvEg6ppObZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -86,8 +100,8 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Login" />
+    <configuration name="LoginBoundary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LoginBoundary" />
       <module name="CZ2002-Lab 4" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,7 +109,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Login" />
+        <item itemvalue="Application.LoginBoundary" />
       </list>
     </recent_temporary>
   </component>
@@ -127,6 +141,10 @@
       <screen x="1440" y="23" width="1920" height="1006" />
     </state>
     <state x="2127" y="222" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.23.1440.877/1440.23.1920.1006@1440.23.1920.1006" timestamp="1605766469973" />
+    <state x="181" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605809171016">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="181" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.877/1440.23.1920.1006@0.23.1440.877" timestamp="1605809171016" />
     <state x="2138" y="280" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605766504005">
       <screen x="1440" y="23" width="1920" height="1006" />
     </state>
@@ -184,14 +202,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Login.java</url>
-          <line>36</line>
+          <url>file://$PROJECT_DIR$/LoginBoundary.java</url>
+          <line>45</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Login.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

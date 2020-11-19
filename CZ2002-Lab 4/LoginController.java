@@ -3,13 +3,13 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.List;
 
-public class PasswordController {
+public class LoginController {
 
     private List passwordList;
 
-    public PasswordController(){
-        Allpasswords.deserializeFromFile();
-        passwordList = Allpasswords.getList();
+    public LoginController(){
+        AllLogin.deserializeFromFile();
+        passwordList = AllLogin.getList();
     }
 
 //-----------------for studentController and AdminController-----------------
@@ -22,7 +22,7 @@ public class PasswordController {
 //        }
 //        return false;
 //    }
-public void checkData(String userName1 , String password, Login login, int num) throws IOException {
+public void checkData(String userName1 , String password, LoginBoundary loginBoundary, int num) throws IOException {
     boolean newAcc = true;
 
     FileReader reader = new FileReader("userdata.txt");
@@ -37,7 +37,7 @@ public void checkData(String userName1 , String password, Login login, int num) 
         if(line.trim().split(" ")[0].equals(userName1)){
             if(line.trim().split(" ")[1].equals(password)){
                 if(num==1 && line.trim().split(" ")[2].equals("student")) {
-                    if (login.checkAllowedPeriod()) {
+                    if (loginBoundary.checkAllowedPeriod()) {
                         System.out.println("Successfully logged");
                         StudentController studentController = new StudentController();
                         studentController.getStudentBasicInfo(userName1);

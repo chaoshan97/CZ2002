@@ -27,14 +27,17 @@ public class Index implements Comparable<Index>, Serializable{
 
     public boolean addStudent(Student student) {
         if (student == null) return false;
+        if (student.getTimetable().checkClash(this.timeSlot)) return false;
         if (available == 0) {
             waitingListStudents.add(student);
             System.out.println("Added to wait list");
             student.addtoCoursesWaitlisted(this);
+            student.getTimetable().addTimetable(this.timeSlot);
             return true;
         }
         registeredStudents.add(student);
         student.addtoCoursesRegistered(this);
+        student.getTimetable().addTimetable(this.timeSlot);
         cnt++;
         available--;
         return true;
@@ -48,11 +51,13 @@ public class Index implements Comparable<Index>, Serializable{
             cnt--; available++;
             adminWaitlistStudent();
             student.delfromCoursesRegistered(this);
+            student.getTimetable().deleteTable(this.timeSlot);
             return true;
         }
         else {//the student is not in the registered list (remove returns false)
             if (waitingListStudents.contains(student)){//the student is on the waiting list
                 waitingListStudents.remove(student);//remove from waiting list
+                student.getTimetable().deleteTable(this.timeSlot);
                 student.delfromCoursesWaitlisted(this);
                 return true;
             }
@@ -134,6 +139,7 @@ public class Index implements Comparable<Index>, Serializable{
             Student student = waitingListStudents.remove();
             registeredStudents.add(student);
             student.addtoCoursesRegistered(this);
+            student.getTimetable().addTimetable(this.timeSlot);
             String content = "Dear " + student.getStudentName() + "\n\nYou have been added to course " + course.getCourseCode() + ", index: " + indexNumber + " successfully. ";
             notifier.notify(subject, content, student.getStudentEmail());
             System.out.println("Student " + student.getStudentName() + " added to course " + course.getCourseCode() + ", index: " + indexNumber + ". ");

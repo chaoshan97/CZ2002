@@ -1,28 +1,36 @@
+
 import java.io.FileInputStream;
-import java.io.IOException;
+import java.io.FileOutputStream;
 import java.io.ObjectInputStream;
-import java.util.ArrayList;
+import java.io.ObjectOutputStream;
+import java.io.IOException;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
-public class AllStudent implements FileHandle{
+public class AllStudent implements FileHandle {
     private static Map<String, Student> studentMap;
-    private static List studentList;
     public AllStudent(){}
 
-    public static List readSerializedObject(String filename){
-        return FileHandle.readSerializedObject(filename);
+    public static void serializeToFile() {
+        try {
+            if (studentMap != null) {
+                FileOutputStream fileOut =
+                        new FileOutputStream("Student.ser");
+                ObjectOutputStream out = new ObjectOutputStream(fileOut);
+                out.writeObject(studentMap);
+                out.close();
+                fileOut.close();
+                System.out.printf("Serialized data is saved in Student.ser");
+            }
+        } catch (IOException i) {
+            i.printStackTrace();
+        }
     }
     public static void deserializeFromFile() {
-        AllStudent.studentList = (ArrayList)(readSerializedObject("studentInfo.dat"));
-    }
-
-    public static Map getStudentMap(){
         try {
-            FileInputStream fileIn = new FileInputStream("studentInfo.ser");
+            FileInputStream fileIn = new FileInputStream("Student.ser");
             ObjectInputStream in = new ObjectInputStream(fileIn);
-            studentMap = (Map<String, Student>) in.readObject();
+            studentMap =(Map<String, Student>) in.readObject();
             in.close();
             fileIn.close();
         } catch (IOException e) {
@@ -30,7 +38,13 @@ public class AllStudent implements FileHandle{
         } catch (ClassNotFoundException i) {
             i.printStackTrace();
         }
+    }
+
+    public static Map<String, Student> getStudentMap() {
         return studentMap;
     }
 
+    public static void setMap(Map<String, Student> studentMap) {
+        this.studentMap = studentMap;
+    }
 }
