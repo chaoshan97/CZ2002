@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1bb55dba-1f13-48d6-a14d-33cc96d6b3eb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/javax_mail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/javax_mail1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminBoundary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminStudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllAdmins.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CZ2002-Lab 4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Studentboundry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studentInfo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userdata.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminCourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdminCourseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllCourses.java" beforeDir="false" afterPath="$PROJECT_DIR$/AllCourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allpasswords.java" beforeDir="false" afterPath="$PROJECT_DIR$/Allpasswords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CZ2002-Lab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CZ2002-Lab.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/Email.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/FileHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index.java" beforeDir="false" afterPath="$PROJECT_DIR$/Index.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/Notifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Password.java" beforeDir="false" afterPath="$PROJECT_DIR$/Password.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PasswordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/PasswordController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentCourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentCourseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Timeslot.java" beforeDir="false" afterPath="$PROJECT_DIR$/Timeslot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Timetable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Timetable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CZ2002-Lab/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CZ2002-Lab/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CZ2002-Lab/CZ2002-Lab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CZ2002-Lab/CZ2002-Lab.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1kUNdtEVWITzi0kkGpvEg6ppObZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Login" />
+      <module name="CZ2002-Lab 4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Login" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1bb55dba-1f13-48d6-a14d-33cc96d6b3eb" name="Default Changelist" comment="" />
+      <created>1605751301015</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605751301015</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2127" y="222" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1605766469973">
+      <screen x="1440" y="23" width="1920" height="1006" />
+    </state>
+    <state x="2127" y="222" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.23.1440.877/1440.23.1920.1006@1440.23.1920.1006" timestamp="1605766469973" />
+    <state x="2138" y="280" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605766504005">
+      <screen x="1440" y="23" width="1920" height="1006" />
+    </state>
+    <state x="2138" y="280" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877/1440.23.1920.1006@1440.23.1920.1006" timestamp="1605766504005" />
+    <state width="1398" height="11" key="GridCell.Tab.0.bottom" timestamp="1605792926343">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1605754535515" />
+    <state width="1878" height="246" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1605763429057" />
+    <state width="1398" height="11" key="GridCell.Tab.0.bottom/0.23.1440.826/1440.23.1920.1057@0.23.1440.826" timestamp="1605792926343" />
+    <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1605751807293" />
+    <state width="1398" height="179" key="GridCell.Tab.0.bottom/0.23.1440.833/1440.23.1920.1057@0.23.1440.833" timestamp="1605757547787" />
+    <state width="1878" height="246" key="GridCell.Tab.0.bottom/0.23.1440.834/1440.0.1920.1080@1440.0.1920.1080" timestamp="1605762713676" />
+    <state width="1878" height="246" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.0.1920.1080@1440.0.1920.1080" timestamp="1605761016650" />
+    <state width="1878" height="219" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.23.1920.1006@1440.23.1920.1006" timestamp="1605767472944" />
+    <state width="1398" height="11" key="GridCell.Tab.0.center" timestamp="1605792926342">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1398" height="203" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1605754535513" />
+    <state width="1878" height="246" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1605763429055" />
+    <state width="1398" height="11" key="GridCell.Tab.0.center/0.23.1440.826/1440.23.1920.1057@0.23.1440.826" timestamp="1605792926342" />
+    <state width="1398" height="203" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1605751807293" />
+    <state width="1398" height="179" key="GridCell.Tab.0.center/0.23.1440.833/1440.23.1920.1057@0.23.1440.833" timestamp="1605757547785" />
+    <state width="1878" height="246" key="GridCell.Tab.0.center/0.23.1440.834/1440.0.1920.1080@1440.0.1920.1080" timestamp="1605762713674" />
+    <state width="1878" height="246" key="GridCell.Tab.0.center/0.23.1440.877/1440.0.1920.1080@1440.0.1920.1080" timestamp="1605761016648" />
+    <state width="1878" height="219" key="GridCell.Tab.0.center/0.23.1440.877/1440.23.1920.1006@1440.23.1920.1006" timestamp="1605767472943" />
+    <state width="1398" height="11" key="GridCell.Tab.0.left" timestamp="1605792926342">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1398" height="203" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1605754535512" />
+    <state width="1878" height="246" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1605763429054" />
+    <state width="1398" height="11" key="GridCell.Tab.0.left/0.23.1440.826/1440.23.1920.1057@0.23.1440.826" timestamp="1605792926342" />
+    <state width="1398" height="203" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1605751807292" />
+    <state width="1398" height="179" key="GridCell.Tab.0.left/0.23.1440.833/1440.23.1920.1057@0.23.1440.833" timestamp="1605757547783" />
+    <state width="1878" height="246" key="GridCell.Tab.0.left/0.23.1440.834/1440.0.1920.1080@1440.0.1920.1080" timestamp="1605762713673" />
+    <state width="1878" height="246" key="GridCell.Tab.0.left/0.23.1440.877/1440.0.1920.1080@1440.0.1920.1080" timestamp="1605761016647" />
+    <state width="1878" height="219" key="GridCell.Tab.0.left/0.23.1440.877/1440.23.1920.1006@1440.23.1920.1006" timestamp="1605767472942" />
+    <state width="1398" height="11" key="GridCell.Tab.0.right" timestamp="1605792926343">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1398" height="203" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1605754535514" />
+    <state width="1878" height="246" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1605763429056" />
+    <state width="1398" height="11" key="GridCell.Tab.0.right/0.23.1440.826/1440.23.1920.1057@0.23.1440.826" timestamp="1605792926343" />
+    <state width="1398" height="203" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1605751807293" />
+    <state width="1398" height="179" key="GridCell.Tab.0.right/0.23.1440.833/1440.23.1920.1057@0.23.1440.833" timestamp="1605757547786" />
+    <state width="1878" height="246" key="GridCell.Tab.0.right/0.23.1440.834/1440.0.1920.1080@1440.0.1920.1080" timestamp="1605762713675" />
+    <state width="1878" height="246" key="GridCell.Tab.0.right/0.23.1440.877/1440.0.1920.1080@1440.0.1920.1080" timestamp="1605761016650" />
+    <state width="1878" height="219" key="GridCell.Tab.0.right/0.23.1440.877/1440.23.1920.1006@1440.23.1920.1006" timestamp="1605767472944" />
+    <state x="88" y="48" key="new project wizard" timestamp="1605752958898">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="88" y="48" key="new project wizard/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1605752958898" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Login.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Login.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

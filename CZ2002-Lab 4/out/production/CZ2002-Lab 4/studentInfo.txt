@@ -1,0 +1,1 @@
+Username:john24, Name:John Ng, MatricNo: U1683968J, StudyYear: 3,Program: CSC, Gender:M, Email:john24@gmail.com, CourseRegisterd:[CZ2006 10282, CZ2005 13291], CourseWaitlist:[CZ2003 18928, CZ2004 17937]
