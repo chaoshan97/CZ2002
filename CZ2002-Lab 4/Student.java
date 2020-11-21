@@ -48,19 +48,16 @@ public class Student implements Serializable{
 
     public String getStudentEmail(){ return StudentEmail;}
 
-//    public Object printCoursesRegistered() {
-//        CoursesRegistered.entrySet().forEach(entry->{System.out.println(entry.getKey()); });
-//        return course;
-//    }
+    public Object getTimetable() {
+        CoursesRegistered.entrySet().forEach(entry->{System.out.println(entry.getKey()); });
+
+    }
 
     public Map<String, Index> getCoursesWaitlist() {
         return CoursesWaitlist;
 
     }
 
-    public getTimeTable() {
-
-    }
 
     public void setAccessPeriod(LocalDateTime[] accessperiod) {
         AccessPeriod = accessperiod;
