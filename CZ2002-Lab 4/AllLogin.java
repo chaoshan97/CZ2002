@@ -3,14 +3,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 class AllLogin implements FileHandle{
-    private static List passwordList;
+    private static List loginList;
 
     public AllLogin(){
 
     }
 
     public static List getList(){
-        return passwordList;
+        return loginList;
     }
 
     public static List readSerializedObject(String filename){
@@ -22,11 +22,11 @@ class AllLogin implements FileHandle{
     }
 
     public static void deserializeFromFile(){
-        AllLogin.passwordList = (ArrayList)(readSerializedObject("password.dat"));
+        AllLogin.loginList = (ArrayList)(readSerializedObject("password.dat"));
     }
 
     public static void serializeToFile(){
-        writeSerializedObject("password.dat", passwordList);
+        writeSerializedObject("password.dat", loginList);
     }
 
 

@@ -48,9 +48,10 @@ public class Student implements Serializable{
 
     public String getStudentEmail(){ return StudentEmail;}
 
-    public void printCoursesRegistered() {
-        CoursesRegistered.entrySet().forEach(entry->{System.out.println(entry.getKey()); });
-    }
+//    public Object printCoursesRegistered() {
+//        CoursesRegistered.entrySet().forEach(entry->{System.out.println(entry.getKey()); });
+//        return course;
+//    }
 
     public Map<String, Index> getCoursesWaitlist() {
         return CoursesWaitlist;

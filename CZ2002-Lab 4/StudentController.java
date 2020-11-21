@@ -20,14 +20,16 @@ public class StudentController {
     Student student = new Student(name,gender,nationality,matricNo);
     String studentMatricNo = student.getStudentMatric();
 
-
-    public void getStudentBasicInfo(String name){
-
-
-    }
     public void getTimetable(){
-        Timetable timetable =  new Timetable();
-        timetable.printTimeTable();
+       if(studentMap.containsKey(student.getCoursesRegistered())){
+           Timetable timetable =  new Timetable();
+           timetable.addTimetable((Timetable) student.getCoursesRegistered());
+           timetable.printTimeTable();
+       }else{
+           System.out.println("You do not have any course registered.");
+
+       }
+
     }
 
     public void showMenu(String stud){

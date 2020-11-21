@@ -24,7 +24,7 @@ public class Studentboundry {
         SimpleDateFormat parser = new SimpleDateFormat("yyyy-MM-dd HH:mm");
         String formatDateTime = now.format(parser);
 
-        if (student.getAccessPeriod() == access) {
+        if (student.getAccessPeriod().) {
             return true;
         } else {
             return false;
@@ -45,13 +45,14 @@ public class Studentboundry {
         while (true) {
             Scanner scanner = new Scanner(System.in);
             StudentCourseController courseController = new StudentCourseController();
+            StudentController studentController = new StudentController();
             System.out.println("-------------------\n    Course Menu     \n-------------------");
             System.out.println("1. Add Course");
             System.out.println("2. Drop Course");
             System.out.println("3. Swap index of the student");
             System.out.println("4. Swap with another student");
             System.out.println("5. Show Vacancies");
-            System.out.println("6. Print Timetable");
+            System.out.println("6. Check/Print Course registered");
             System.out.println("7. Exit");
             System.out.print("Enter a number: ");
 
@@ -139,8 +140,7 @@ public class Studentboundry {
                     break;
 
                 case 6:
-                    Timetable timetable = new Timetable();
-                    timetable.printTimeTable();
+                    studentController.getTimetable();
                     break;
                 case 7:
                     System.exit(0);

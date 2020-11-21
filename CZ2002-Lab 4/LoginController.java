@@ -5,11 +5,11 @@ import java.util.List;
 
 public class LoginController {
 
-    private List passwordList;
+    private List loginList;
 
     public LoginController(){
         AllLogin.deserializeFromFile();
-        passwordList = AllLogin.getList();
+        loginList = AllLogin.getList();
     }
 
 //-----------------for studentController and AdminController-----------------
@@ -22,16 +22,13 @@ public class LoginController {
 //        }
 //        return false;
 //    }
-public void checkData(String userName1 , String password, LoginBoundary loginBoundary, int num) throws IOException {
+public void checkData(String userName1 , String password,int num) throws IOException {
     boolean newAcc = true;
 
-    FileReader reader = new FileReader("userdata.txt");
+    FileReader reader = new FileReader("password.dat");
     BufferedReader bufferedReader = new BufferedReader(reader);
 
     String line;
-    String studentdomain="student";
-    String admindomain="admin";
-
 
     while ((line = bufferedReader.readLine()) != null) {
         if(line.trim().split(" ")[0].equals(userName1)){
@@ -68,7 +65,6 @@ public void checkData(String userName1 , String password, LoginBoundary loginBou
 //                        newAcc = false;
 
                     }
-
                 }
 
 

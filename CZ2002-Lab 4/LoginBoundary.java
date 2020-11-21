@@ -3,9 +3,8 @@ import java.util.Scanner;
 public class LoginBoundary {
     public static void main(String[] args) {
         LoginBoundary loginBoundary =  new LoginBoundary();
-       // AllLogin allpasswords =  new AllLogin();
         Scanner scanner = new Scanner(System.in);
-       // String domain=null;
+        //String domain=null;
         AllCourse ac = new AllCourse();
         AllStudent as = new AllStudent();
         AllLogin al = new AllLogin();
@@ -20,6 +19,8 @@ public class LoginBoundary {
         AdminCourseController adminCourseController = new AdminCourseController();
         AdminStudentController adminStudentController = new AdminStudentController();
         LoginController loginController = new LoginController();
+        Login newLogin = new Login();
+
 
         System.out.println("Select your domain: ");
         System.out.println("1. Student");
@@ -40,10 +41,9 @@ public class LoginBoundary {
                 }
                 System.out.print("Network username or new username: ");
                 String userName = scanner.nextLine();
-                String userName1 = scanner.nextLine();
                 System.out.print("Password: ");
                 String password = scanner.nextLine();
-                loginController.checkData(userName1, password, loginBoundary, num);
+                loginController.checkData(userName, password, num);
 
             } catch(Exception e) {
                 System.out.println("Invalid Inputs!Please enter either option 1 or 2 !");
