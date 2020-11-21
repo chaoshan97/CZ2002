@@ -51,13 +51,13 @@ public class Index implements Comparable<Index>, Serializable{
             cnt--; available++;
             adminWaitlistStudent();
             student.delfromCoursesRegistered(this);
-            student.getTimetable().deleteTable(this.timeSlot);
+            student.getTimetable().delTimetable(this.timeSlot);
             return true;
         }
         else {//the student is not in the registered list (remove returns false)
             if (waitingListStudents.contains(student)){//the student is on the waiting list
                 waitingListStudents.remove(student);//remove from waiting list
-                student.getTimetable().deleteTable(this.timeSlot);
+                student.getTimetable().delTimetable(this.timeSlot);
                 student.delfromCoursesWaitlisted(this);
                 return true;
             }

@@ -1,5 +1,6 @@
 //package sce.cz2002.yxy;
 
+import javax.management.ObjectName;
 import java.util.*;
 import java.io.Serializable;
 import java.time.*;
@@ -17,6 +18,8 @@ public class Student implements Serializable{
     //private Map<>
     private int SumAU = 0;
     private LocalDateTime[] AccessPeriod;
+    private Timetable timeSlot;
+    Timetable timetable = new Timetable();
 
     public Student(String name, char gender, String nationality, String matric) {
         Name = name;
@@ -48,7 +51,7 @@ public class Student implements Serializable{
 
     public String getStudentEmail(){ return StudentEmail;}
 
-    public Object getTimetable() {
+    public void printTime() {
         CoursesRegistered.entrySet().forEach(entry->{System.out.println(entry.getKey()); });
 
     }
@@ -83,5 +86,13 @@ public class Student implements Serializable{
     public void delfromCoursesWaitlisted(Index i){
         this.CoursesWaitlist.remove(i.getCourseCode());
 
+    }
+
+
+    public Timetable getTimetable() {
+        timetable.checkClash(timeSlot);
+        timetable.addTimetable(timeSlot);
+        timetable.delTimetable(timeSlot);
+        return timetable;
     }
 }

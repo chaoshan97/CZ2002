@@ -21,7 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1bb55dba-1f13-48d6-a14d-33cc96d6b3eb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index.java" beforeDir="false" afterPath="$PROJECT_DIR$/Index.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CZ2002-Lab 4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CZ2002-Lab 4/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
