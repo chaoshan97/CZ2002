@@ -20,13 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bb55dba-1f13-48d6-a14d-33cc96d6b3eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AllLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/AllLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginBoundary.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoginBoundary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Studentboundry.java" beforeDir="false" afterPath="$PROJECT_DIR$/Studentboundry.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

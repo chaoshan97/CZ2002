@@ -1,4 +1,5 @@
 import java.text.SimpleDateFormat;
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.util.Date;
@@ -22,9 +23,14 @@ public class Studentboundry {
 
         Student student = studentMap.get(matricNo);
         SimpleDateFormat parser = new SimpleDateFormat("yyyy-MM-dd HH:mm");
-        String formatDateTime = now.format(parser);
+        String formatDateTime = parser.format(LocalDate.now());
+        Timeslot timeslot =  new Timeslot();
 
-        if (student.getAccessPeriod().) {
+        LocalDateTime openTime = LocalDateTime.ofInstant(timeslot.getOpening().toInstant(), ZoneId.systemDefault());
+        LocalDateTime closeTime = LocalDateTime.ofInstant(timeslot.getClosing().toInstant(), ZoneId.systemDefault());
+        LocalDateTime[] access = {openTime, closeTime};
+
+        if (student.getAccessPeriod() == access) {
             return true;
         } else {
             return false;

@@ -58,9 +58,9 @@ public class Student implements Serializable{
 
     }
 
-    //public getTimeTable() {}
+    public getTimeTable() {
 
-    //public printTimeTable() {}
+    }
 
     public void setAccessPeriod(LocalDateTime[] accessperiod) {
         AccessPeriod = accessperiod;
